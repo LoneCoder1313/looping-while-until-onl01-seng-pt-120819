@@ -1,7 +1,9 @@
-def using_while
+def using_while(looping_string= "Wingardium Leviosa" )
   levitation_force = 6
-	
-  #your code here
+  while levitation_force < 10 
+  levitation_force += 1
+	puts looping_string
+	end
 end
 
 
